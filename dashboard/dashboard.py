@@ -87,7 +87,7 @@ def plot_yearly_trend(all_df, monthly_rentals):
     return fig
 
 # Load cleaned data
-all_df = load_and_prepare_data("all_data.csv")
+all_df = load_and_prepare_data("https://raw.githubusercontent.com/Andriansyah088/submission/refs/heads/main/dashboard/all_data.csv")
 
 # Menentukan nilai minimum dan maksimum tanggal
 min_date = all_df['dteday'].min()
